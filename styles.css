@@ -1,0 +1,120 @@
+
+
+body {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Baloo;
+}
+
+
+.container {
+    padding: 50px;
+    color: white;
+    background-image: linear-gradient(#b392ac, #f7d1cd);
+    width: 300px;
+    border-radius: 6px;
+    border: 2px solid #735d78;
+}
+
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 50px;
+}
+
+
+#push-btn, #unshift-btn {
+    background-image: linear-gradient(to right, #735d78 0%, #b392ac 51%, #d1b3c4 100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;        
+    box-shadow: 0 0 5px #735d78;
+    display: block;
+}
+#push-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+#unshift-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+#shift-btn, #pop-btn {
+    background-image: linear-gradient(to left, #735d78 0%, #b392ac 51%, #d1b3c4 100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;        
+    box-shadow: 0 0 5px #735d78;
+    display: block;
+}
+
+#shift-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+#pop-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+    width: 210px;
+}
+
+button {
+    font-family: Baloo;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    margin: 0 4px;
+    font-size: 10px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0;
+}
+
+
+         
+         
+
